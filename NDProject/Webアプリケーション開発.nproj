@@ -35773,6 +35773,18 @@
       "Metamodel": "ライフライン"
     },
     {
+      "Id": "bfd6993a-c309-4689-b434-87ffee253449",
+      "EntityType": "Entity",
+      "Name": "メソッド",
+      "MetamodelId": "3a594996-cf48-4c2f-80a2-918404e249d4",
+      "Metamodel": "メソッド",
+      "Fields": {
+        "Name": "メソッド",
+        "引数": "",
+        "抽象メソッドか": false
+      }
+    },
+    {
       "Id": "c0e05319-03db-4c94-bd8c-66688acc8664",
       "EntityType": "Entity",
       "Name": "ItemViewModel",
@@ -39217,6 +39229,16 @@
       "SourceId": "568d29eb-0247-41d4-8762-a32e5ec2f592",
       "TargetId": "d292e7e5-7637-4824-becf-529f2e229639",
       "SourceIndex": 2,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "54872d7f-14a1-41de-b143-fc115a3b30f1",
+      "RelationType": "Embed",
+      "MetamodelId": "4ce5c41b-d85c-4d86-9120-109e0fa650e3",
+      "Metamodel": "メソッドの所有",
+      "SourceId": "ec716bb8-b95a-4993-8be8-fda31836e185",
+      "TargetId": "bfd6993a-c309-4689-b434-87ffee253449",
+      "SourceIndex": 5,
       "TargetIndex": -1
     },
     {
