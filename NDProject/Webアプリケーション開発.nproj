@@ -34031,6 +34031,18 @@
       }
     },
     {
+      "Id": "641698ca-5392-4b72-b51c-5ec972d9774c",
+      "EntityType": "Entity",
+      "Name": "メソッド",
+      "MetamodelId": "3a594996-cf48-4c2f-80a2-918404e249d4",
+      "Metamodel": "メソッド",
+      "Fields": {
+        "Name": "メソッド",
+        "引数": "",
+        "抽象メソッドか": false
+      }
+    },
+    {
       "Id": "645b2c6c-8746-44af-8b15-cd9cb27bf2bf",
       "EntityType": "Entity",
       "Name": "要求モデル",
@@ -43022,6 +43034,16 @@
       "Metamodel": "シナリオの所有",
       "SourceId": "10380816-af0e-4f03-b709-fead2e729b57",
       "TargetId": "d943ba16-0012-48f9-8a38-a59c616ee54b",
+      "TargetIndex": -1
+    },
+    {
+      "Id": "e02cfb5a-a119-4ec6-b2ae-9f65ee945a64",
+      "RelationType": "Embed",
+      "MetamodelId": "4ce5c41b-d85c-4d86-9120-109e0fa650e3",
+      "Metamodel": "メソッドの所有",
+      "SourceId": "ec716bb8-b95a-4993-8be8-fda31836e185",
+      "TargetId": "641698ca-5392-4b72-b51c-5ec972d9774c",
+      "SourceIndex": 6,
       "TargetIndex": -1
     },
     {
