@@ -34894,6 +34894,7 @@
       "Metamodel": "ビュー",
       "Fields": {
         "Name": "LoginView",
+        "Description": "説明",
         "抽象クラスか": false
       }
     },
@@ -35849,6 +35850,18 @@
       "Metamodel": "パッケージ",
       "Fields": {
         "Name": "Login"
+      }
+    },
+    {
+      "Id": "c542b3fc-977b-4645-8035-de6e45fbf9a1",
+      "EntityType": "Entity",
+      "Name": "メソッドA",
+      "MetamodelId": "3a594996-cf48-4c2f-80a2-918404e249d4",
+      "Metamodel": "メソッド",
+      "Fields": {
+        "Name": "メソッドA",
+        "引数": "",
+        "抽象メソッドか": false
       }
     },
     {
@@ -40161,7 +40174,7 @@
       "Metamodel": "メソッドの所有",
       "SourceId": "905aa7fd-83f4-4eed-8b1a-150df0822ad7",
       "TargetId": "07e95301-3f7b-47fb-ac1a-2e0108782dea",
-      "SourceIndex": 1,
+      "SourceIndex": 2,
       "TargetIndex": -1
     },
     {
@@ -41081,6 +41094,16 @@
       "SourceId": "70296c7b-4b2b-4b9a-80b5-45c3e3d6cf80",
       "TargetId": "ca7b675f-e07b-48f9-875e-25b1d3c11703",
       "SourceIndex": 3,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "a010c87b-3e0b-4207-9103-09232d9f32d2",
+      "RelationType": "Embed",
+      "MetamodelId": "4ce5c41b-d85c-4d86-9120-109e0fa650e3",
+      "Metamodel": "メソッドの所有",
+      "SourceId": "905aa7fd-83f4-4eed-8b1a-150df0822ad7",
+      "TargetId": "c542b3fc-977b-4645-8035-de6e45fbf9a1",
+      "SourceIndex": 1,
       "TargetIndex": -1
     },
     {
