@@ -33848,6 +33848,18 @@
       }
     },
     {
+      "Id": "5bfa122a-b85a-4995-9b05-9975a0603020",
+      "EntityType": "Entity",
+      "Name": "追加メソッドA",
+      "MetamodelId": "3a594996-cf48-4c2f-80a2-918404e249d4",
+      "Metamodel": "メソッド",
+      "Fields": {
+        "Name": "追加メソッドA",
+        "引数": "",
+        "抽象メソッドか": false
+      }
+    },
+    {
       "Id": "5c367c50-5039-445c-b8e5-925e16ed5a06",
       "EntityType": "Entity",
       "Name": "DeleteItem",
@@ -34894,8 +34906,8 @@
       "Metamodel": "ビュー",
       "Fields": {
         "Name": "LoginView",
-        "抽象クラスか": false,
-        "Description": "説明"
+        "Description": "",
+        "抽象クラスか": false
       }
     },
     {
@@ -35853,18 +35865,6 @@
       }
     },
     {
-      "Id": "c542b3fc-977b-4645-8035-de6e45fbf9a1",
-      "EntityType": "Entity",
-      "Name": "メソッドA",
-      "MetamodelId": "3a594996-cf48-4c2f-80a2-918404e249d4",
-      "Metamodel": "メソッド",
-      "Fields": {
-        "Name": "メソッドA",
-        "引数": "",
-        "抽象メソッドか": false
-      }
-    },
-    {
       "Id": "c87382cb-783f-493d-ae7c-978563fba7d4",
       "EntityType": "Lifeline",
       "MetamodelId": "6612ca3a-c708-4ba8-bb45-6e4628e33f9f",
@@ -36644,18 +36644,6 @@
       }
     },
     {
-      "Id": "ebe43751-8121-404f-822e-769db386096f",
-      "EntityType": "Entity",
-      "Name": "メソッドA",
-      "MetamodelId": "3a594996-cf48-4c2f-80a2-918404e249d4",
-      "Metamodel": "メソッド",
-      "Fields": {
-        "Name": "メソッドA",
-        "引数": "",
-        "抽象メソッドか": false
-      }
-    },
-    {
       "Id": "ec716bb8-b95a-4993-8be8-fda31836e185",
       "EntityType": "Entity",
       "Name": "LoginService",
@@ -37230,16 +37218,6 @@
       "Metamodel": "ビューの所有",
       "SourceId": "5f130d2b-b11e-4243-8512-504d588ddf3a",
       "TargetId": "2fade5cd-542b-40cf-b6af-8ab678ec848b",
-      "TargetIndex": -1
-    },
-    {
-      "Id": "0accf4b4-f764-4c4b-80b4-56b9a73695a1",
-      "RelationType": "Embed",
-      "MetamodelId": "4ce5c41b-d85c-4d86-9120-109e0fa650e3",
-      "Metamodel": "メソッドの所有",
-      "SourceId": "905aa7fd-83f4-4eed-8b1a-150df0822ad7",
-      "TargetId": "ebe43751-8121-404f-822e-769db386096f",
-      "SourceIndex": 2,
       "TargetIndex": -1
     },
     {
@@ -40196,7 +40174,7 @@
       "Metamodel": "メソッドの所有",
       "SourceId": "905aa7fd-83f4-4eed-8b1a-150df0822ad7",
       "TargetId": "07e95301-3f7b-47fb-ac1a-2e0108782dea",
-      "SourceIndex": 2,
+      "SourceIndex": 1,
       "TargetIndex": -1
     },
     {
@@ -41116,16 +41094,6 @@
       "SourceId": "70296c7b-4b2b-4b9a-80b5-45c3e3d6cf80",
       "TargetId": "ca7b675f-e07b-48f9-875e-25b1d3c11703",
       "SourceIndex": 3,
-      "TargetIndex": -1
-    },
-    {
-      "Id": "a010c87b-3e0b-4207-9103-09232d9f32d2",
-      "RelationType": "Embed",
-      "MetamodelId": "4ce5c41b-d85c-4d86-9120-109e0fa650e3",
-      "Metamodel": "メソッドの所有",
-      "SourceId": "905aa7fd-83f4-4eed-8b1a-150df0822ad7",
-      "TargetId": "c542b3fc-977b-4645-8035-de6e45fbf9a1",
-      "SourceIndex": 1,
       "TargetIndex": -1
     },
     {
@@ -43670,6 +43638,16 @@
       "TargetId": "ac40927a-e689-4e11-aa68-ed7dcb097539",
       "TargetIndex": -1,
       "IsDerivation": true
+    },
+    {
+      "Id": "f6485ce7-0b2b-46ec-b0d7-261c4f405283",
+      "RelationType": "Embed",
+      "MetamodelId": "4ce5c41b-d85c-4d86-9120-109e0fa650e3",
+      "Metamodel": "メソッドの所有",
+      "SourceId": "905aa7fd-83f4-4eed-8b1a-150df0822ad7",
+      "TargetId": "5bfa122a-b85a-4995-9b05-9975a0603020",
+      "SourceIndex": 2,
+      "TargetIndex": -1
     },
     {
       "Id": "f6803b65-474a-4426-a740-b59eeef28e20",
